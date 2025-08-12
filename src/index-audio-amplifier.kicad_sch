@@ -4,6 +4,15 @@
 	(generator_version "9.0")
 	(uuid "dc35f43b-99fc-498e-a143-7e0669c7658b")
 	(paper "A4")
+	(title_block
+		(title "Index Audio Amplifier")
+		(date "In-Progress")
+		(rev "0-dev")
+		(comment 1 "Peter S. Hollander")
+		(comment 2 "recursivenomad@protonmail.com")
+		(comment 3 "MIT-0 OR CC0-1.0")
+		(comment 4 "https://gitlab.com/recursivenomad/index-audio-amplifier/")
+	)
 	(lib_symbols)
 	(sheet_instances
 		(path "/"
