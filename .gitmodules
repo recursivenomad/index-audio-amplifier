@@ -1,3 +1,6 @@
 [submodule "compact-title-block"]
 	path = src/project-libraries/compact-title-block
 	url = ../../recursivenomad/kicad-title-block.git
+[submodule "picoprobe-candybar-interface"]
+	path = src/project-libraries/picoprobe-candybar-interface
+	url = ../../recursivenomad/picoprobe-candybar-interface.git

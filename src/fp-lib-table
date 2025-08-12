@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Connector_PicoprobeCandybar")(type "KiCad")(uri "${KIPRJMOD}/project-libraries/picoprobe-candybar-interface/Connector_PicoprobeCandybar.pretty")(options "")(descr ""))
+)
