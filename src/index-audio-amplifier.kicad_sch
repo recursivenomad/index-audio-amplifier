@@ -4727,12 +4727,6 @@
 		(uuid "1d1bad72-3c46-4a65-932b-b6d708aee699")
 	)
 	(junction
-		(at 73.66 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3004e41e-57b7-4085-997e-21fabf9daaa5")
-	)
-	(junction
 		(at 140.97 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4991,12 +4985,6 @@
 		(uuid "f0f9824c-550a-4a6a-b0f7-76671039f66d")
 	)
 	(junction
-		(at 73.66 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f259be12-c1fe-467c-bb2b-8af71a4f3b44")
-	)
-	(junction
 		(at 91.44 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5019,12 +5007,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9d53be2-222b-4c90-bf0c-3f7099b82d6a")
-	)
-	(junction
-		(at 73.66 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fbb118a5-bc87-4cd3-9d25-83eb3d686efd")
 	)
 	(junction
 		(at 151.13 78.74)
@@ -5190,7 +5172,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 127) (xy 82.55 127)
+			(xy 55.88 127) (xy 82.55 127)
 		)
 		(stroke
 			(width 0)
@@ -5207,16 +5189,6 @@
 			(type default)
 		)
 		(uuid "050b1e6a-8930-4dd9-9b84-11de4abded2b")
-	)
-	(wire
-		(pts
-			(xy 55.88 127) (xy 73.66 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0741c090-282e-4043-924c-b5ef397f7470")
 	)
 	(wire
 		(pts
@@ -5300,7 +5272,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 99.06) (xy 82.55 99.06)
+			(xy 69.85 99.06) (xy 82.55 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5870,16 +5842,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 95.25) (xy 73.66 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4532e8d3-aed9-45bc-bad6-a98bad7ea2bb")
-	)
-	(wire
-		(pts
 			(xy 151.13 106.68) (xy 151.13 105.41)
 		)
 		(stroke
@@ -6107,16 +6069,6 @@
 			(type default)
 		)
 		(uuid "58923cd6-7a24-440a-bb81-2fe5482a918c")
-	)
-	(wire
-		(pts
-			(xy 73.66 135.89) (xy 73.66 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59a578b3-47d4-4a05-9740-e9bac003b6f3")
 	)
 	(wire
 		(pts
@@ -6410,16 +6362,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 127) (xy 73.66 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "705c81f3-1b85-4aba-a3d7-0ea4141966fe")
-	)
-	(wire
-		(pts
 			(xy 133.35 157.48) (xy 154.94 157.48)
 		)
 		(stroke
@@ -6457,16 +6399,6 @@
 			(type default)
 		)
 		(uuid "7653d7a1-a793-4cf4-8dd3-78c41e448f0e")
-	)
-	(wire
-		(pts
-			(xy 69.85 99.06) (xy 73.66 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7670d73a-9101-4238-b8ae-f17915f1a131")
 	)
 	(wire
 		(pts
@@ -6740,7 +6672,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 137.16) (xy 73.66 137.16)
+			(xy 71.12 137.16) (xy 82.55 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6787,16 +6719,6 @@
 			(type default)
 		)
 		(uuid "8f1ffef0-e458-4286-a51b-63208f7e415c")
-	)
-	(wire
-		(pts
-			(xy 73.66 83.82) (xy 73.66 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8fa35cf6-384f-454a-bf83-ab697c6a5ec9")
 	)
 	(wire
 		(pts
@@ -7917,16 +7839,6 @@
 			(type default)
 		)
 		(uuid "fe4ced90-e7d4-4e2e-a09f-d4d414019a77")
-	)
-	(wire
-		(pts
-			(xy 73.66 137.16) (xy 82.55 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe5519be-e78f-4337-bff5-7617d9f748f5")
 	)
 	(wire
 		(pts
@@ -12226,71 +12138,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 73.66 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a9d10d6-78d6-4fdd-88f2-bae5ba7d7500")
-		(property "Reference" "#PWR010"
-			(at 73.66 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 73.66 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 73.66 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c27e92bf-38a5-4e08-ab96-ed6b96865485")
-		)
-		(instances
-			(project "index-audio-amplifier"
-				(path "/dc35f43b-99fc-498e-a143-7e0669c7658b"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 137.16 184.15 0)
 		(unit 1)
@@ -14586,74 +14433,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 73.66 132.08 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "e5dd19c0-a8b9-4a48-bf54-5d0a49d9d811")
-		(property "Reference" "R15"
-			(at 71.628 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NO-FIT"
-			(at 73.66 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 75.438 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f40dbeac-f828-43c9-ac31-a12960cea77f")
-		)
-		(pin "2"
-			(uuid "c9f49f47-3488-4d25-ad5d-5f99737dac10")
-		)
-		(instances
-			(project "index-audio-amplifier"
-				(path "/dc35f43b-99fc-498e-a143-7e0669c7658b"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 182.88 72.39 0)
 		(unit 1)
@@ -15052,74 +14831,6 @@
 			(project "index-audio-amplifier"
 				(path "/dc35f43b-99fc-498e-a143-7e0669c7658b"
 					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 73.66 91.44 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "f8c9b063-3739-43c7-9729-a940ed5f82ea")
-		(property "Reference" "R4"
-			(at 71.628 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NO-FIT"
-			(at 73.66 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 75.438 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 73.66 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6816bcb4-a68d-4f28-b39a-b75f34a350be")
-		)
-		(pin "2"
-			(uuid "b15ba7fc-2155-4be5-8fea-d03dcb6fdf2d")
-		)
-		(instances
-			(project "index-audio-amplifier"
-				(path "/dc35f43b-99fc-498e-a143-7e0669c7658b"
-					(reference "R4")
 					(unit 1)
 				)
 			)
