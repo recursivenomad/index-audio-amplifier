@@ -120,6 +120,17 @@
 		(layer "Dwgs.User")
 		(uuid "171d17e1-b557-4f72-9d78-3035b973344c")
 	)
+	(gr_circle
+		(center 143.4 105)
+		(end 145.9 105)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "17bd5d24-52f7-4ae4-a807-373d210635fc")
+	)
 	(gr_arc
 		(start 151.628107 98.737819)
 		(mid 151.844258 98.922268)
@@ -386,6 +397,17 @@
 		(layer "Dwgs.User")
 		(uuid "e1baa8ec-8675-4c35-8530-b5125b7866e6")
 	)
+	(gr_circle
+		(center 153.6 105)
+		(end 156.1 105)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "e3ed6175-a219-41b8-91c6-15231222141f")
+	)
 	(gr_line
 		(start 99.75 90.5)
 		(end 99.75 129.95)
@@ -428,6 +450,80 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "3843462c-8621-4ffc-9f78-e68bd96e0d39")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Cu")
+		(uuid "c4195db0-e16d-4cf1-a256-915175e9637c")
+		(name "Screwhead Keepout")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start 150.6 105)
+					(mid 156.6 105)
+					(end 150.6 105)
+				)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Cu")
+		(uuid "e6b2f6c1-2ad7-4b04-aab6-1dc0cb66e951")
+		(name "Screwhead Keepout")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start 140.4 105)
+					(mid 146.4 105)
+					(end 140.4 105)
+				)
+			)
+		)
 	)
 	(embedded_fonts no)
 )
