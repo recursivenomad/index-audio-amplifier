@@ -4238,6 +4238,39 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "C14 must be close to pin 44"
+		(exclude_from_sim no)
+		(at 140.335 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f3fbfec-413f-4a99-b996-f5fa6c5540c6")
+	)
+	(text "R12 and R13 must be close to RP2040"
+		(exclude_from_sim no)
+		(at 75.565 73.025 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bb9bc436-1af3-4987-a079-12bcf9faa868")
+	)
+	(text "C12 must be close to pin 45"
+		(exclude_from_sim no)
+		(at 145.415 56.515 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcec25a6-d4b8-4db0-b3af-9eba9d43bfd4")
+	)
 	(junction
 		(at 77.47 33.02)
 		(diameter 0)
