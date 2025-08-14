@@ -1,0 +1,210 @@
+(footprint "WLP-9_1.347x1.347mm_Layout3x3_P0.4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5829d856-e661-42a7-b36c-ca3a6734a67f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WLP-9_1.347x1.347mm_Layout3x3_P0.4mm"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "579a5152-7665-475c-a32b-940648f65342")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8e77a1c-d802-490b-b0e7-cad644ec30c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6da6eb76-4e12-436d-b271-7fb27fca706d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7735 0.7735)
+		(end -0.7735 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e91ba89-8913-4fc1-8139-25656f8189ed")
+	)
+	(fp_line
+		(start -0.4 -0.7735)
+		(end 0.7735 -0.7735)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a078a166-46a3-4321-a022-cd06f7545f2d")
+	)
+	(fp_line
+		(start 0.7735 -0.7735)
+		(end 0.7735 0.7735)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "803135e2-dce6-4dea-a74a-b121635dd257")
+	)
+	(fp_line
+		(start 0.7735 0.7735)
+		(end -0.7735 0.7735)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b12f8595-c49c-4cc7-bd41-3aabb526cb48")
+	)
+	(fp_poly
+		(pts
+			(xy -0.8 -0.8) (xy -0.8 -1.2) (xy -1.2 -0.8)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6799ae60-4603-4d35-b3bc-f56c086b8e10")
+	)
+	(fp_rect
+		(start -1.1735 -1.1735)
+		(end 1.1735 1.1735)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "41029890-4ea6-45ac-86bd-6778525876a7")
+	)
+	(fp_poly
+		(pts
+			(xy -0.6735 -0.4) (xy -0.4 -0.6735) (xy 0.6735 -0.6735) (xy 0.6735 0.6735) (xy -0.6735 0.6735)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "6fcfb507-2373-4daa-ad96-023b454e121a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "45646ecc-a7b4-43e9-adc7-68ca2acaf6e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "A1" smd circle
+		(at -0.4 -0.4)
+		(size 0.27 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8c74d10a-34d0-4195-aedd-fa79907ad9fe")
+	)
+	(pad "A2" smd circle
+		(at 0 -0.4)
+		(size 0.27 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b937aad0-a5fc-4d8a-8c8f-d64cf066bb83")
+	)
+	(pad "A3" smd circle
+		(at 0.4 -0.4)
+		(size 0.27 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4306223a-8ef2-448a-b2d7-b77a481c0edc")
+	)
+	(pad "B1" smd circle
+		(at -0.4 0)
+		(size 0.27 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b2ca6fb-4e91-4308-b551-34d4c950f21a")
+	)
+	(pad "B2" smd circle
+		(at 0 0)
+		(size 0.27 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "81ebf128-a161-4718-ad77-ff676925698b")
+	)
+	(pad "B3" smd circle
+		(at 0.4 0)
+		(size 0.27 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "80603c20-529e-41b0-83cd-1b55ef228968")
+	)
+	(pad "C1" smd circle
+		(at -0.4 0.4)
+		(size 0.27 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a422d3ad-9f4d-46d0-b397-47a450241be1")
+	)
+	(pad "C2" smd circle
+		(at 0 0.4)
+		(size 0.27 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0a7ba90f-023a-4368-943a-5b31fbf85563")
+	)
+	(pad "C3" smd circle
+		(at 0.4 0.4)
+		(size 0.27 0.27)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "47da0799-412d-4d59-9f14-502e06cdc8da")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Package_BGA.3dshapes/BGA-9_1.6x1.6mm_Layout3x3_P0.5mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 0.841875 0.841875 0.841875)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

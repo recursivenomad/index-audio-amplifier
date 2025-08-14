@@ -10937,7 +10937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 275.59 157.48 0)
 			(effects
 				(font
@@ -11541,7 +11541,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 275.59 118.11 0)
 			(effects
 				(font
@@ -12483,7 +12483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_BGA:WLP-9_1.468x1.448mm_Layout3x3_P0.4mm"
+		(property "Footprint" "ProjectFootprints_IndexAudioAmplifier:WLP-9_1.347x1.347mm_Layout3x3_P0.4mm"
 			(at 247.65 139.7 0)
 			(effects
 				(font
@@ -13107,7 +13107,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Package_BGA:WLP-9_1.468x1.448mm_Layout3x3_P0.4mm"
+		(property "Footprint" "ProjectFootprints_IndexAudioAmplifier:WLP-9_1.347x1.347mm_Layout3x3_P0.4mm"
 			(at 247.65 179.07 0)
 			(effects
 				(font
