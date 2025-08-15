@@ -14,6 +14,693 @@
 		(comment 4 "https://gitlab.com/recursivenomad/index-audio-amplifier/")
 	)
 	(lib_symbols
+		(symbol "CU3616SASCLA004-LF_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "CU3616SASCLA004-LF"
+				(at 0 19.05 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.cvilux.com/uploads/drawings/101/757/CU36S04S.pdf"
+				(at 0 -36.83 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Dual Stacked USB Type C Connector"
+				(at 0 -34.29 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB-C Double Port"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CU3616SASCLA004-LF_1_0_0"
+				(pin passive line
+					(at -7.62 -22.86 90)
+					(length 5.08)
+					(name "SHIELD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CU3616SASCLA004-LF_1_0_1"
+				(rectangle
+					(start -10.16 17.78)
+					(end 10.16 -17.78)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "CU3616SASCLA004-LF_1_1_0"
+				(pin power_in line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GND_LO_IN" power_out line)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LA12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "VBUS_LO_IN" power_out line)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LA9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "DN1_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "DN2_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "DP1_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "DP2_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2_LO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "LB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "CU3616SASCLA004-LF_1_2_0"
+				(pin power_in line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(name "GND_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "GND_UP_IN" power_out line)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UA12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -22.86 90)
+					(length 5.08)
+					(hide yes)
+					(name "GND_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(name "VBUS_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "VBUS_UP_IN" power_out line)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UA9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 15.24 180)
+					(length 5.08)
+					(hide yes)
+					(name "VBUS_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 10.16 180)
+					(length 5.08)
+					(name "CC1_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 7.62 180)
+					(length 5.08)
+					(name "CC2_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 2.54 180)
+					(length 5.08)
+					(name "DN1_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 0 180)
+					(length 5.08)
+					(name "DN2_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -2.54 180)
+					(length 5.08)
+					(name "DP1_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -5.08 180)
+					(length 5.08)
+					(name "DP2_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -12.7 180)
+					(length 5.08)
+					(name "SBU1_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -15.24 180)
+					(length 5.08)
+					(name "SBU2_UP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "UB8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -2949,158 +3636,6 @@
 				)
 			)
 			(symbol "CU3616SASCLA004-LF_1_0"
-				(pin no_connect line
-					(at -10.16 12.7 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "LA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "LA3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "LA10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "LA11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "LB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "LB3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "LB10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "LB11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -3399,158 +3934,6 @@
 				)
 			)
 			(symbol "CU3616SASCLA004-LF_2_0"
-				(pin no_connect line
-					(at -10.16 12.7 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "UA2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 10.16 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "UA3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "UA10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "UA11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "UB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 0 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "UB3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "UB10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "UB11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 0 -22.86 90)
 					(length 5.08)
@@ -16546,23 +16929,11 @@
 		(pin "LB9"
 			(uuid "f0d17e62-e255-45ee-ad0c-4d4438080843")
 		)
-		(pin "UA10"
-			(uuid "d8a9ebf7-54bf-4191-a4e9-ec2e1eb8e9ce")
-		)
 		(pin "UA9"
 			(uuid "ffb1d2bb-955b-4443-a78d-f842d1b45872")
 		)
 		(pin "LB5"
 			(uuid "342f19c9-307f-4388-ab75-03a9f56b9c72")
-		)
-		(pin "LB11"
-			(uuid "29246749-07ec-423c-bc76-d9203d379d58")
-		)
-		(pin "LA10"
-			(uuid "bcbad29e-f6a1-485a-9ab9-c225d83de682")
-		)
-		(pin "LB2"
-			(uuid "5fa16ec5-5854-40de-868a-34465ca74df5")
 		)
 		(pin "LB12"
 			(uuid "ce0ce758-cdf5-4b83-a7e8-95ec8981ee65")
@@ -16586,30 +16957,12 @@
 			(uuid "2d7304dc-4f63-4a1f-91b8-7943b01e1271")
 			(alternate "GND_LO_IN")
 		)
-		(pin "UA11"
-			(uuid "b79e6e24-9af0-45b5-9f53-d48729d39936")
-		)
-		(pin "LA11"
-			(uuid "ea4550da-a665-4a3e-a517-a7b93205aae0")
-		)
-		(pin "LB10"
-			(uuid "cc550f0d-7224-407e-a3eb-8148d256c188")
-		)
 		(pin "LA4"
 			(uuid "b98c97cc-b64c-4b2a-8cf7-9c070e12569a")
 			(alternate "VBUS_LO_IN")
 		)
 		(pin "LA6"
 			(uuid "58241546-c7de-484a-864d-e7ac61ba53c5")
-		)
-		(pin "UA2"
-			(uuid "97ada961-262c-4090-ada5-cf1fd5431a0b")
-		)
-		(pin "LA2"
-			(uuid "eba86b94-9642-4a16-bbaa-ca9a160fc8c2")
-		)
-		(pin "UB2"
-			(uuid "e9638003-1e28-4901-844a-563bc99633cc")
 		)
 		(pin "UB12"
 			(uuid "d1e392e0-da29-482e-8a2d-531282f4e008")
@@ -16623,23 +16976,11 @@
 		(pin "LB7"
 			(uuid "614525a8-3d4f-4ef0-bcb0-bbe575915eff")
 		)
-		(pin "UB11"
-			(uuid "8089a1b2-dcd8-471d-b1da-c52ffa3eb5a4")
-		)
 		(pin "UA1"
 			(uuid "e2e2547c-9210-4b69-a28a-349dd4053b21")
 		)
-		(pin "UB10"
-			(uuid "fdf9d281-af93-48b3-973e-65e476cda341")
-		)
 		(pin "S1"
 			(uuid "7c1f5da5-54fc-4b0c-933d-4484ae0e2b3d")
-		)
-		(pin "LA3"
-			(uuid "047ff290-dc52-4eb1-9623-e2911c1d9dc6")
-		)
-		(pin "LB3"
-			(uuid "3590510a-14a4-4736-bd65-188b4ec307bf")
 		)
 		(pin "UA12"
 			(uuid "9632feb2-3e28-432c-b7ad-0f2e9a9a2a69")
@@ -16652,12 +16993,6 @@
 		)
 		(pin "LA5"
 			(uuid "de56a987-ce7a-488b-b29c-2f437e3e776d")
-		)
-		(pin "UA3"
-			(uuid "9c7dc673-b02e-473d-ba44-5847c46fca00")
-		)
-		(pin "UB3"
-			(uuid "389150aa-29ac-418c-9ad2-aa1d53c1f874")
 		)
 		(pin "UA4"
 			(uuid "5b88f738-8ffa-44fc-94d9-409be6c8d6f2")
@@ -16761,6 +17096,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CU3616SASCLA004-LF_1")
 		(lib_id "ProjectSymbols_IndexAudioAmplifier:CU3616SASCLA004-LF")
 		(at 29.21 40.64 0)
 		(unit 1)
@@ -16813,153 +17149,105 @@
 			)
 		)
 		(pin "LB1"
-			(uuid "9b408470-aa10-4d68-9926-a17874806b76")
+			(uuid "9b408470-aa10-4d68-9926-a17874806b77")
 		)
 		(pin "LB8"
-			(uuid "223e0abb-83e5-43f4-89c6-7261dae952ae")
+			(uuid "223e0abb-83e5-43f4-89c6-7261dae952af")
 		)
 		(pin "LB9"
-			(uuid "f0d17e62-e255-45ee-ad0c-4d4438080843")
-		)
-		(pin "UA10"
-			(uuid "d8a9ebf7-54bf-4191-a4e9-ec2e1eb8e9ce")
+			(uuid "f0d17e62-e255-45ee-ad0c-4d4438080844")
 		)
 		(pin "UA9"
-			(uuid "ffb1d2bb-955b-4443-a78d-f842d1b45872")
+			(uuid "ffb1d2bb-955b-4443-a78d-f842d1b45873")
 		)
 		(pin "LB5"
-			(uuid "342f19c9-307f-4388-ab75-03a9f56b9c72")
-		)
-		(pin "LB11"
-			(uuid "29246749-07ec-423c-bc76-d9203d379d58")
-		)
-		(pin "LA10"
-			(uuid "bcbad29e-f6a1-485a-9ab9-c225d83de682")
-		)
-		(pin "LB2"
-			(uuid "5fa16ec5-5854-40de-868a-34465ca74df5")
+			(uuid "342f19c9-307f-4388-ab75-03a9f56b9c73")
 		)
 		(pin "LB12"
-			(uuid "ce0ce758-cdf5-4b83-a7e8-95ec8981ee65")
+			(uuid "ce0ce758-cdf5-4b83-a7e8-95ec8981ee66")
 		)
 		(pin "UB4"
-			(uuid "a5b16ad2-1152-4624-a2ef-3144f1593643")
+			(uuid "a5b16ad2-1152-4624-a2ef-3144f1593644")
 		)
 		(pin "LB6"
-			(uuid "0911b5b9-7387-4bf5-8547-834d6796fb23")
+			(uuid "0911b5b9-7387-4bf5-8547-834d6796fb24")
 		)
 		(pin "LA7"
-			(uuid "e7da320a-c309-4fda-b92a-0784a03d9bdd")
+			(uuid "e7da320a-c309-4fda-b92a-0784a03d9bde")
 		)
 		(pin "LB4"
-			(uuid "8414c13e-6c3e-42bd-a7ba-a0aba4db18db")
+			(uuid "8414c13e-6c3e-42bd-a7ba-a0aba4db18dc")
 		)
 		(pin "LA8"
-			(uuid "b86ee614-b2a5-4154-bbbb-87cc606fd5f1")
+			(uuid "b86ee614-b2a5-4154-bbbb-87cc606fd5f2")
 		)
 		(pin "LA1"
-			(uuid "2d7304dc-4f63-4a1f-91b8-7943b01e1271")
+			(uuid "2d7304dc-4f63-4a1f-91b8-7943b01e1272")
 			(alternate "GND_LO_IN")
 		)
-		(pin "UA11"
-			(uuid "b79e6e24-9af0-45b5-9f53-d48729d39936")
-		)
-		(pin "LA11"
-			(uuid "ea4550da-a665-4a3e-a517-a7b93205aae0")
-		)
-		(pin "LB10"
-			(uuid "cc550f0d-7224-407e-a3eb-8148d256c188")
-		)
 		(pin "LA4"
-			(uuid "b98c97cc-b64c-4b2a-8cf7-9c070e12569a")
+			(uuid "b98c97cc-b64c-4b2a-8cf7-9c070e12569b")
 			(alternate "VBUS_LO_IN")
 		)
 		(pin "LA6"
-			(uuid "58241546-c7de-484a-864d-e7ac61ba53c5")
-		)
-		(pin "UA2"
-			(uuid "97ada961-262c-4090-ada5-cf1fd5431a0b")
-		)
-		(pin "LA2"
-			(uuid "eba86b94-9642-4a16-bbaa-ca9a160fc8c2")
-		)
-		(pin "UB2"
-			(uuid "e9638003-1e28-4901-844a-563bc99633cc")
+			(uuid "58241546-c7de-484a-864d-e7ac61ba53c6")
 		)
 		(pin "UB12"
-			(uuid "d1e392e0-da29-482e-8a2d-531282f4e008")
+			(uuid "d1e392e0-da29-482e-8a2d-531282f4e009")
 		)
 		(pin "UA5"
-			(uuid "56a8e361-50d0-4c4d-adda-0197f103dec6")
+			(uuid "56a8e361-50d0-4c4d-adda-0197f103dec7")
 		)
 		(pin "LA12"
-			(uuid "c7c123e2-fda2-4779-be06-f5f0e248596a")
+			(uuid "c7c123e2-fda2-4779-be06-f5f0e248596b")
 		)
 		(pin "LB7"
-			(uuid "614525a8-3d4f-4ef0-bcb0-bbe575915eff")
-		)
-		(pin "UB11"
-			(uuid "8089a1b2-dcd8-471d-b1da-c52ffa3eb5a4")
+			(uuid "614525a8-3d4f-4ef0-bcb0-bbe575915f00")
 		)
 		(pin "UA1"
-			(uuid "e2e2547c-9210-4b69-a28a-349dd4053b21")
-		)
-		(pin "UB10"
-			(uuid "fdf9d281-af93-48b3-973e-65e476cda341")
+			(uuid "e2e2547c-9210-4b69-a28a-349dd4053b22")
 		)
 		(pin "S1"
-			(uuid "7c1f5da5-54fc-4b0c-933d-4484ae0e2b3d")
-		)
-		(pin "LA3"
-			(uuid "047ff290-dc52-4eb1-9623-e2911c1d9dc6")
-		)
-		(pin "LB3"
-			(uuid "3590510a-14a4-4736-bd65-188b4ec307bf")
+			(uuid "7c1f5da5-54fc-4b0c-933d-4484ae0e2b3e")
 		)
 		(pin "UA12"
-			(uuid "9632feb2-3e28-432c-b7ad-0f2e9a9a2a69")
+			(uuid "9632feb2-3e28-432c-b7ad-0f2e9a9a2a6a")
 		)
 		(pin "LA9"
-			(uuid "56efb5e6-eec5-433e-b583-9b7e10f05b5a")
+			(uuid "56efb5e6-eec5-433e-b583-9b7e10f05b5b")
 		)
 		(pin "UB1"
-			(uuid "b4266657-75a6-4add-b352-659d39d04273")
+			(uuid "b4266657-75a6-4add-b352-659d39d04274")
 		)
 		(pin "LA5"
-			(uuid "de56a987-ce7a-488b-b29c-2f437e3e776d")
-		)
-		(pin "UA3"
-			(uuid "9c7dc673-b02e-473d-ba44-5847c46fca00")
-		)
-		(pin "UB3"
-			(uuid "389150aa-29ac-418c-9ad2-aa1d53c1f874")
+			(uuid "de56a987-ce7a-488b-b29c-2f437e3e776e")
 		)
 		(pin "UA4"
-			(uuid "5b88f738-8ffa-44fc-94d9-409be6c8d6f2")
+			(uuid "5b88f738-8ffa-44fc-94d9-409be6c8d6f3")
 		)
 		(pin "UB9"
-			(uuid "225a8fc8-8a69-46ba-b932-accae43c9e27")
+			(uuid "225a8fc8-8a69-46ba-b932-accae43c9e28")
 		)
 		(pin "UB5"
-			(uuid "0f1329d5-0bf9-4eb6-bf01-52127005445b")
+			(uuid "0f1329d5-0bf9-4eb6-bf01-52127005445c")
 		)
 		(pin "UB8"
-			(uuid "4bb19ae6-fc61-47d2-a5ca-4717fed8f3f7")
+			(uuid "4bb19ae6-fc61-47d2-a5ca-4717fed8f3f8")
 		)
 		(pin "UB7"
-			(uuid "b218e281-6c5e-4355-8ff3-7ea020b90c19")
+			(uuid "b218e281-6c5e-4355-8ff3-7ea020b90c1a")
 		)
 		(pin "UB6"
-			(uuid "da4f02d6-fb6c-4f60-9c69-2995896e3ccc")
+			(uuid "da4f02d6-fb6c-4f60-9c69-2995896e3ccd")
 		)
 		(pin "UA6"
-			(uuid "10cab9e4-a90f-4f5a-8490-85add465c73d")
+			(uuid "10cab9e4-a90f-4f5a-8490-85add465c73e")
 		)
 		(pin "UA7"
-			(uuid "496c82b9-1ff9-4576-abd1-01840982e30e")
+			(uuid "496c82b9-1ff9-4576-abd1-01840982e30f")
 		)
 		(pin "UA8"
-			(uuid "6bc7bf4d-e978-4376-8d22-f01d83496f14")
+			(uuid "6bc7bf4d-e978-4376-8d22-f01d83496f15")
 		)
 		(instances
 			(project ""
