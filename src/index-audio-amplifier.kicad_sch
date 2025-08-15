@@ -3886,7 +3886,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
+			(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 				(at 0 -39.37 0)
 				(effects
 					(font
@@ -3913,7 +3913,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*QFN*4x4mm*P0.5mm*EP2.5x2.5mm"
+			(property "ki_fp_filters" "*QFN-24*4x4mm*P0.5mm*EP2.5x2.5mm*Vias*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -14169,7 +14169,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm"
+		(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 			(at 77.47 120.65 0)
 			(effects
 				(font
