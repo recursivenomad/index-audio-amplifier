@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "ProjectFootprints_IndexAudioAmplifier:USB_C_Receptacle_CviLux_CU36SASCLA004-LF"
+			(at 0 -39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
