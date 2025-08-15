@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "USB 2.0 Type-C right-angle receptacle with 2 ports vertically stacked")
 	(property "Reference" "REF**"
-		(at 0 -16.45 0)
+		(at 0 -10.16 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "84c28b04-6c5a-4acb-bce0-fb90c92009a8")
@@ -452,10 +452,10 @@
 	)
 	(model "${KICAD9_3DMODEL_DIR}/Sensor_Pressure.3dshapes/NXP_MPL115A1_LGA-8_3x5mm_P1.25mm.wrl"
 		(offset
-			(xyz 0 0 -1.5)
+			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 5.2 3.8 13.3)
+			(xyz 4.55 3.55 12)
 		)
 		(rotate
 			(xyz -0 -0 -0)
