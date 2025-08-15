@@ -1596,7 +1596,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 2.54 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "RESET_N"
 					(effects
@@ -1741,8 +1741,28 @@
 			)
 		)
 		(symbol "USB2422_1_0"
-			(pin input line
+			(pin output line
 				(at -15.24 7.62 0)
+				(length 2.54)
+				(name "SUSP_IND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(alternate "LOCAL_PWR" input line)
+				(alternate "NON_REM0" input line)
+			)
+			(pin input line
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "SMBCLK"
 					(effects
@@ -1761,7 +1781,7 @@
 				(alternate "CFG_SEL" input line)
 			)
 			(pin bidirectional line
-				(at -15.24 5.08 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "SMBDATA"
 					(effects
@@ -1778,26 +1798,6 @@
 					)
 				)
 				(alternate "NON_REM1" input line)
-			)
-			(pin output line
-				(at -15.24 0 0)
-				(length 2.54)
-				(name "SUSP_IND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(alternate "LOCAL_PWR" input line)
-				(alternate "NON_REM0" input line)
 			)
 			(pin input line
 				(at -15.24 -5.08 0)
