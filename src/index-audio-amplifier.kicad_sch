@@ -3788,7 +3788,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*QFN-24*4x4mm*P0.5mm*EP2.5x2.5mm*Vias*"
+			(property "ki_fp_filters" "*QFN-24*4x4mm*P0.5mm*EP2.5x2.5mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3917,24 +3917,6 @@
 						)
 					)
 					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 5.08 -25.4 90)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4166,6 +4148,25 @@
 							)
 						)
 					)
+				)
+				(pin no_connect line
+					(at 5.08 -25.4 90)
+					(length 2.54)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "VSS" passive line)
 				)
 				(pin output line
 					(at 15.24 10.16 180)
@@ -14521,7 +14522,7 @@
 				)
 			)
 		)
-		(property "Value" "3V3_EN"
+		(property "Value" "BOOTSEL"
 			(at 62.23 114.935 0)
 			(effects
 				(font
