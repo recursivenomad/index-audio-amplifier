@@ -14,6 +14,113 @@
 		(comment 4 "https://gitlab.com/recursivenomad/index-audio-amplifier/")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x02"
 			(pin_names
 				(offset 1.016)
@@ -5353,6 +5460,12 @@
 		(uuid "2cd91770-c282-41db-82e1-9e7d9ed97b97")
 	)
 	(junction
+		(at 53.34 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3047b3a7-3f2a-452f-aeba-a8484de343da")
+	)
+	(junction
 		(at 99.06 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5443,6 +5556,12 @@
 		(uuid "7888e88a-f1e8-43af-8d6c-4585c51d7304")
 	)
 	(junction
+		(at 102.87 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a8785fb-4af2-46f5-b872-df99aa83a852")
+	)
+	(junction
 		(at 195.58 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5483,6 +5602,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e8407ee-5940-4cb0-9e8b-e0d245790fda")
+	)
+	(junction
+		(at 105.41 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "986cb955-3ac7-4913-a4ed-7f4a1875c213")
 	)
 	(junction
 		(at 50.8 73.66)
@@ -5567,6 +5692,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cab7abf4-c377-4898-bcbe-e3ea3f83e318")
+	)
+	(junction
+		(at 55.88 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0803b41-1ae9-4bb3-a465-f2abd0a66f32")
 	)
 	(junction
 		(at 45.72 44.45)
@@ -5826,6 +5957,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 81.28) (xy 102.87 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03ad5fe8-0542-4b27-bb4d-dd60ff64e4e2")
+	)
+	(wire
+		(pts
 			(xy 143.51 44.45) (xy 143.51 45.72)
 		)
 		(stroke
@@ -5896,7 +6037,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 76.2) (xy 105.41 86.36)
+			(xy 105.41 76.2) (xy 105.41 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6066,7 +6207,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 39.37) (xy 55.88 68.58)
+			(xy 55.88 39.37) (xy 55.88 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6093,6 +6234,16 @@
 			(type default)
 		)
 		(uuid "174fc72d-f189-417a-a4fc-e11b6830a309")
+	)
+	(wire
+		(pts
+			(xy 55.88 50.8) (xy 55.88 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17af8c9d-4cec-465f-83c2-1f2dd67b77b0")
 	)
 	(wire
 		(pts
@@ -6226,7 +6377,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 78.74) (xy 102.87 85.09)
+			(xy 102.87 78.74) (xy 102.87 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6506,7 +6657,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 49.53) (xy 58.42 66.04)
+			(xy 53.34 44.45) (xy 53.34 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7496,16 +7647,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 44.45) (xy 58.42 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73e5e628-35e1-4617-85c3-9fb9864bb702")
-	)
-	(wire
-		(pts
 			(xy 55.88 25.4) (xy 72.39 25.4)
 		)
 		(stroke
@@ -7926,16 +8067,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 66.04) (xy 62.23 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e46402c-b530-4ade-8315-635a1469f5df")
-	)
-	(wire
-		(pts
 			(xy 86.36 50.8) (xy 86.36 54.61)
 		)
 		(stroke
@@ -7943,6 +8074,16 @@
 			(type default)
 		)
 		(uuid "8e82d5db-f102-45c4-825f-13f5b184e9f4")
+	)
+	(wire
+		(pts
+			(xy 58.42 66.04) (xy 62.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f129796-4ea4-4fe9-924b-17c983b3c7d9")
 	)
 	(wire
 		(pts
@@ -8646,6 +8787,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 81.28) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c791ea55-a1cf-49c9-94bc-6276b13b0a3b")
+	)
+	(wire
+		(pts
 			(xy 72.39 25.4) (xy 72.39 29.21)
 		)
 		(stroke
@@ -8826,6 +8977,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 60.96) (xy 58.42 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d304f184-0405-472e-8a7b-6198ce633911")
+	)
+	(wire
+		(pts
 			(xy 72.39 50.8) (xy 72.39 49.53)
 		)
 		(stroke
@@ -8893,6 +9054,16 @@
 			(type default)
 		)
 		(uuid "da4b0207-6bb1-4c44-90fc-b48c9996650d")
+	)
+	(wire
+		(pts
+			(xy 53.34 50.8) (xy 53.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daade3be-e68c-41e2-94f3-29061645cd43")
 	)
 	(wire
 		(pts
@@ -10957,6 +11128,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 55.88 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2649130e-3c19-4c03-8c35-2e06eef1d6c4")
+		(property "Reference" "TP3"
+			(at 58.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 55.88 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ProjectFootprints_IndexAudioAmplifier:TestPoint_Pad_D0.5mm"
+			(at 60.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 55.88 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0822cd70-ef70-44ee-8b0a-cc6ab7fc43b4")
+		)
+		(instances
+			(project "index-audio-amplifier"
+				(path "/dc35f43b-99fc-498e-a143-7e0669c7658b"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 110.49 31.75 0)
 		(unit 1)
@@ -12292,6 +12528,136 @@
 			(project ""
 				(path "/dc35f43b-99fc-498e-a143-7e0669c7658b"
 					(reference "NT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 102.87 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59d45463-5df7-4810-a6c4-c11f82b26a7e")
+		(property "Reference" "TP2"
+			(at 100.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 102.87 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ProjectFootprints_IndexAudioAmplifier:TestPoint_Pad_D0.5mm"
+			(at 107.95 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 102.87 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c3bbaa0-b282-4bbd-a066-7d706434daf6")
+		)
+		(instances
+			(project "index-audio-amplifier"
+				(path "/dc35f43b-99fc-498e-a143-7e0669c7658b"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 53.34 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "59f2c085-8425-4e55-927e-1430dfb23af9")
+		(property "Reference" "TP4"
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 53.34 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ProjectFootprints_IndexAudioAmplifier:TestPoint_Pad_D0.5mm"
+			(at 58.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 53.34 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e7d3499-839c-4fa4-85e4-74acf8d01a94")
+		)
+		(instances
+			(project "index-audio-amplifier"
+				(path "/dc35f43b-99fc-498e-a143-7e0669c7658b"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -18414,6 +18780,71 @@
 			(project "index-audio-amplifier"
 				(path "/dc35f43b-99fc-498e-a143-7e0669c7658b"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 105.41 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb4cc63f-051d-44e8-bbea-749ce4d07cf3")
+		(property "Reference" "TP1"
+			(at 107.95 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 105.41 79.248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "ProjectFootprints_IndexAudioAmplifier:TestPoint_Pad_D0.5mm"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 105.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5517b97f-9936-45e5-8340-f2d364b155cf")
+		)
+		(instances
+			(project ""
+				(path "/dc35f43b-99fc-498e-a143-7e0669c7658b"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
