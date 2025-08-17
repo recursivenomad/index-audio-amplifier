@@ -489,6 +489,12 @@
         "wire_width": 6
       },
       {
+        "name": "Analogue",
+        "pcb_color": "rgb(0, 170, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -496,7 +502,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "via_diameter": 0.5,
@@ -524,6 +530,14 @@
       {
         "netclass": "Power",
         "pattern": "+3V3"
+      },
+      {
+        "netclass": "Analogue",
+        "pattern": "*RIGHT_*"
+      },
+      {
+        "netclass": "Analogue",
+        "pattern": "*LEFT_*"
       }
     ]
   },
