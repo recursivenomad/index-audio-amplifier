@@ -106,6 +106,50 @@
 		(uuid "dca34bca-82e5-411d-8d26-7f6457ffc4b5")
 	)
 	(fp_rect
+		(start -6.2 -5.12)
+		(end -5.6 -4.42)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "6ef66d72-505f-4c94-a3b7-04fefbfee023")
+	)
+	(fp_rect
+		(start -5.1 0.16)
+		(end -4.5 2.73)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "214a4132-3086-4b81-a925-279b650600cd")
+	)
+	(fp_rect
+		(start 5.1 0.16)
+		(end 4.5 2.73)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "ef20cd2a-d1b8-4ebe-a199-d7464fdf1760")
+	)
+	(fp_rect
+		(start 6.2 -5.12)
+		(end 5.6 -4.42)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "4d1835b2-cac3-43cb-a6ca-14e95d011a0a")
+	)
+	(fp_rect
 		(start -7.3 -9.35)
 		(end 7.3 9.35)
 		(stroke
@@ -458,6 +502,216 @@
 		(remove_unused_layers no)
 		(thermal_bridge_angle 90)
 		(uuid "ae609a00-9e18-4b77-b3a6-fa0d2746907f")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "b742f4eb-4501-40f3-a7d3-634e9e6c26cf")
+		(name "Standoff Keepout")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start -5.6 -4.22)
+					(mid -5.458579 -4.278579)
+					(end -5.4 -4.42)
+				)
+				(arc
+					(start -5.4 -5.12)
+					(mid -5.458579 -5.261421)
+					(end -5.6 -5.32)
+				)
+				(arc
+					(start -6.2 -5.32)
+					(mid -6.341421 -5.261421)
+					(end -6.4 -5.12)
+				)
+				(arc
+					(start -6.4 -4.42)
+					(mid -6.341421 -4.278579)
+					(end -6.2 -4.22)
+				)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "0d2d3afa-9dd9-48c5-b35a-79de6e7a7882")
+		(name "Standoff Keepout")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start 6.4 -5.12)
+					(mid 6.341421 -5.261421)
+					(end 6.2 -5.32)
+				)
+				(arc
+					(start 5.6 -5.32)
+					(mid 5.458579 -5.261421)
+					(end 5.4 -5.12)
+				)
+				(arc
+					(start 5.4 -4.42)
+					(mid 5.458579 -4.278579)
+					(end 5.6 -4.22)
+				)
+				(arc
+					(start 6.2 -4.22)
+					(mid 6.341421 -4.278579)
+					(end 6.4 -4.42)
+				)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "f879270a-fa5f-4f33-99ec-71a720eff081")
+		(name "Standoff Keepout")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start -4.499999 2.93)
+					(mid -4.358578 2.871421)
+					(end -4.299999 2.73)
+				)
+				(arc
+					(start -4.299999 0.16)
+					(mid -4.358578 0.018579)
+					(end -4.499999 -0.04)
+				)
+				(arc
+					(start -5.099999 -0.04)
+					(mid -5.24142 0.018579)
+					(end -5.299999 0.16)
+				)
+				(arc
+					(start -5.299999 2.73)
+					(mid -5.24142 2.871421)
+					(end -5.099999 2.93)
+				)
+				(xy -4.499999 2.929999)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "f755146d-4b0a-41d7-8da5-2fcf07450731")
+		(name "Standoff Keepout")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(arc
+					(start 5.1 2.93)
+					(mid 5.241421 2.871421)
+					(end 5.3 2.73)
+				)
+				(arc
+					(start 5.3 0.16)
+					(mid 5.241421 0.018579)
+					(end 5.1 -0.04)
+				)
+				(arc
+					(start 4.5 -0.04)
+					(mid 4.358579 0.018579)
+					(end 4.3 0.16)
+				)
+				(arc
+					(start 4.3 2.73)
+					(mid 4.358579 2.871421)
+					(end 4.5 2.93)
+				)
+				(xy 5.1 2.929999)
+			)
+		)
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.wrl"
