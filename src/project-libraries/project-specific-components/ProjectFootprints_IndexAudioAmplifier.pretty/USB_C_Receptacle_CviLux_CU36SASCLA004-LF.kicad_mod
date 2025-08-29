@@ -714,37 +714,15 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.wrl"
-		(offset
-			(xyz -2.775 -0.5 1)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.wrl"
-		(offset
-			(xyz -2.775 -0.5 9.5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz -0 -0 -0)
-		)
-	)
-	(model "${KICAD9_3DMODEL_DIR}/Sensor_Pressure.3dshapes/NXP_MPL115A1_LGA-8_3x5mm_P1.25mm.wrl"
+	(model "${KIPRJMOD}/project-libraries/project-specific-components/ProjectFootprints_IndexAudioAmplifier.3dshapes/USB_C_Receptacle_CviLux_CU36SASCLA004-LF.step"
 		(offset
 			(xyz 0 0 0)
 		)
 		(scale
-			(xyz 4.55 3.55 12)
+			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz 0 0 0)
 		)
 	)
 )
